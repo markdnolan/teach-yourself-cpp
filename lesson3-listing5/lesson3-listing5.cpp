@@ -1,9 +1,10 @@
 //
-//  listing3-5.cpp
-//  listing3-5
+//  lesson3-listing5.cpp
+//  lesson3-listing5
 //
 //  Created by domain_management on 8/19/23.
 //
+// Finding the sizes of standard C++ variable types
 
 #include <iostream>
 

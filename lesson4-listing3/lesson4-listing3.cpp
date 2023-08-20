@@ -4,6 +4,7 @@
 //
 //  Created by domain_management on 8/20/23.
 //
+// Accessing elements in a multi-dimensional array.
 
 #include <iostream>
 

@@ -4,6 +4,7 @@
 //
 //  Created by domain_management on 8/20/23.
 //
+// Assigning values to elements in an array
 
 #include <iostream>
 
