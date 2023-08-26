@@ -26,7 +26,7 @@ int main(){
         cin >> myNums[counter];
     }
     
-    cout << "Displaying contents of the aray: " << endl;
+    cout << "Displaying contents of the array: " << endl;
     
     for (int counter = 0; counter < ARRAY_LENGTH; ++counter)
         cout << "Element " << counter << " = " << myNums[counter] << endl;
