@@ -15,7 +15,8 @@ void CalcArea (
     const double* const ptrRadius,  // i.e. no change allowed to radius
     double* const ptrArea)          // can change data pointed to but not address
     {
-    // check pointers for validity befoe using!
+        // check pointers for validity befoe using!
+        // The logoical AND (&&) converts each pointer to type bool which means it is either NULL (0) or NON-NULL (TRUE) (1), unless a poiter is set to NULL it will return TRUE, thus the next line makes sure that all 3 pointers have a value the is not "NULL".
     if (ptrPi && ptrRadius && ptrArea)
         *ptrArea = (*ptrPi) * (*ptrRadius) * (*ptrRadius);
     return;
