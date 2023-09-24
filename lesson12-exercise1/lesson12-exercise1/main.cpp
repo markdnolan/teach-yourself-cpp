@@ -20,7 +20,13 @@ public:
     : month(inMonth), day(inDay), year(inYear) {
     }
     
-    explicit operator int() {
+    /*  This is unary conversion operator
+        Syntax here is:
+            return_type operator operator_type() {      - explicit > return type, int > opertator_type
+            ....implementation....                      - (month * 1000000) + (day * 10000) + year
+            }
+    */
+     explicit operator int() {   // explicit keyword prevents the type of the result from being changed from an integer.
         return ((month * 1000000) + (day * 10000) + year);
     }
     
